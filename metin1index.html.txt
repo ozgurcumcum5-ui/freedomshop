@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freedom Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Freedom Shop</div>
+        <nav>
+            <a href="#products">Ürünler</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Dijital Özgürlüğün Adresi</h1>
+        <p>Profesyonel dijital ürünleri keşfet, hemen sepete ekle ve öde!</p>
+        <a href="#products" class="btn">Ürünlere Göz At</a>
+    </section>
+
+    <section id="products">
+        <h2>Öne Çıkan Ürünler</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/ebook.jpg" alt="Freedom E-Kitap">
+                <h3>Freedom E-Kitap Seti</h3>
+                <p>3 E-kitap + 2 Video Eğitimi</p>
+                <p class="price">49.99$</p>
+                <button class="btn add-to-cart" data-name="Freedom E-Kitap Seti" data-price="49.99">Sepete Ekle</button>
+            </div>
+            <div class="product-card">
+                <img src="images/video-course.jpg" alt="Freedom Video Kurs">
+                <h3>Freedom Video Kurs</h3>
+                <p>Online eğitim paketi</p>
+                <p class="price">29.99$</p>
+                <button class="btn add-to-cart" data-name="Freedom Video Kurs" data-price="29.99">Sepete Ekle</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Sepetiniz</h2>
+        <div id="cart-items"></div>
+        <p id="total"></p>
+        <button id="checkout-btn" class="btn">Stripe ile Öde</button>
+    </section>
+
+    <section id="about">
+        <h2>Hakkımızda</h2>
+        <p>Freedom Shop, dijital ürünlerde kalite ve güveni öncelikli tutan bir platformdur. Sadece senin için en iyi içerikleri sunarız.</p>
+    </section>
+
+    <section id="contact">
+        <h2>İletişim</h2>
+        <form>
+            <input type="text" placeholder="Adınız" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mesajınız" required></textarea>
+            <button type="submit" class="btn">Gönder</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Freedom Shop | Tüm Hakları Saklıdır</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freedom Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Freedom Shop</div>
+        <nav>
+            <a href="#products">Ürünler</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Dijital Özgürlüğün Adresi</h1>
+        <p>Profesyonel dijital ürünleri keşfet, hemen sepete ekle ve öde!</p>
+        <a href="#products" class="btn">Ürünlere Göz At</a>
+    </section>
+
+    <section id="products">
+        <h2>Öne Çıkan Ürünler</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/ebook.jpg" alt="Freedom E-Kitap">
+                <h3>Freedom E-Kitap Seti</h3>
+                <p>3 E-kitap + 2 Video Eğitimi</p>
+                <p class="price">49.99$</p>
+                <button class="btn add-to-cart" data-name="Freedom E-Kitap Seti" data-price="49.99">Sepete Ekle</button>
+            </div>
+            <div class="product-card">
+                <img src="images/video-course.jpg" alt="Freedom Video Kurs">
+                <h3>Freedom Video Kurs</h3>
+                <p>Online eğitim paketi</p>
+                <p class="price">29.99$</p>
+                <button class="btn add-to-cart" data-name="Freedom Video Kurs" data-price="29.99">Sepete Ekle</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Sepetiniz</h2>
+        <div id="cart-items"></div>
+        <p id="total"></p>
+        <button id="checkout-btn" class="btn">Stripe ile Öde</button>
+    </section>
+
+    <section id="about">
+        <h2>Hakkımızda</h2>
+        <p>Freedom Shop, dijital ürünlerde kalite ve güveni öncelikli tutan bir platformdur. Sadece senin için en iyi içerikleri sunarız.</p>
+    </section>
+
+    <section id="contact">
+        <h2>İletişim</h2>
+        <form>
+            <input type="text" placeholder="Adınız" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mesajınız" required></textarea>
+            <button type="submit" class="btn">Gönder</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Freedom Shop | Tüm Hakları Saklıdır</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
